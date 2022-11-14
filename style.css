@@ -1,0 +1,19 @@
+#keypad{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+#keypad div{
+    background-color: black;
+    color: white;
+    border: 4px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+#screen{
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+}
