@@ -1,20 +1,17 @@
-const screen = document.getElementById('screen')
-const equal = document.getElementById('equal')
-const plus = document.getElementById('plus')
-const minus = document.getElementById('minus')
-const multiple = document.getElementById('multiple')
-const divide = document.getElementById('divide')
+let display = document.getElementById('display');
 
-const keys = document.querySelectorAll(".key")
+let buttons = Array.from(document.getElementsByClassName('button'));
 
-keys.forEach(key =>{
-    key.addEventListener('click',()=>{
-        console.log(key.innerText);
-        screen.innerHTML = key.innerText
+
+
+buttons.map( button => {
+    button.addEventListener('click', (e) => {
+        console.log('clicked');
+        console.log(e);
+        console.log(e.target);
+        console.log(e.target.innerText);
     })
+}); 
 
-    // button.addEventListener('click',()=>{
-    //     console.log(key)
-    // })
-})
+
 
