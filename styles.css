@@ -1,17 +1,13 @@
+body {
+    background-image: radial-gradient(circle, #ae6f0f, #8d5a0f, #6d450e, #4e310b, #321f04);
+}
+
+
 .container {
     background-color: rgb(26, 23, 17);
     max-width: 400px;
     margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
-}
-
-.display {
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
-    border: 0.5px solid #299;
+    box-shadow: 0px 0px 43px 17px rgb(22, 16, 9);
 }
 
 .buttons {
@@ -39,4 +35,19 @@
     background-color: rgb(54, 54, 50);
     color: antiquewhite;
     transition: 0.3s ease-in-out;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 0.5px solid #999;
+    color: antiquewhite;
+}
+
+#equal {
+    background-color: goldenrod;
+    color: black;
 }
