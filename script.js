@@ -11,6 +11,9 @@ buttons.map((button) => {
       case "←":
         display.innerText = display.innerText.slice(0,-1);
         break;
+      case "=":
+        display.innerText = eval(display.innerText);
+        break;
       default:
         display.innerText += e.target.innerText;
     }
