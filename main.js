@@ -30,6 +30,13 @@ const items = [
 
 
 
+const equals = document.createElement("div");
+
+equals.setAttribute("id", "equals");
+equals.className = "button";
+equals.innerHTML = "=";
+buttons.appendChild(equals);
+
 let display = document.getElementById("display");
 
 let button1 = Array.from(document.getElementsByClassName("button"));
