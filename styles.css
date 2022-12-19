@@ -1,53 +1,59 @@
 body {
-    background-image: radial-gradient(circle, #ae6f0f, #8d5a0f, #6d450e, #4e310b, #321f04);
+  background-image: radial-gradient(
+    circle,
+    #ae6f0f,
+    #8d5a0f,
+    #6d450e,
+    #4e310b,
+    #321f04
+  );
 }
 
-
 .container {
-    background-color: rgb(26, 23, 17);
-    max-width: 400px;
-    margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgb(22, 16, 9);
+  background-color: rgb(26, 23, 17);
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px rgb(22, 16, 9);
 }
 
 .buttons {
-    display: grid;
-    border-bottom: 1px solid #999;
-    border-left: 1px solid #999;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.buttons  div  {
-    border-top: 1px solid #999;
-    border-right: 1px solid #999;
+.buttons div {
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
 }
 
 .button {
-    border: 0.5px solid #999;
-    color: antiquewhite;
-    line-height: 100px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
+  border: 0.5px solid #999;
+  color: antiquewhite;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .button:hover {
-    background-color: rgb(54, 54, 50);
-    color: antiquewhite;
-    transition: 0.3s ease-in-out;
+  background-color: rgb(54, 54, 50);
+  color: antiquewhite;
+  transition: 0.3s ease-in-out;
 }
 
 #display {
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
-    border: 0.5px solid #999;
-    color: antiquewhite;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  border: 0.5px solid #999;
+  color: antiquewhite;
 }
 
 #equal {
-    background-color: goldenrod;
-    color: black;
+  background-color: goldenrod;
+  color: black;
 }
