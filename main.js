@@ -28,7 +28,14 @@ const items = [
   ")",
 ];
 
+for (i = 0; i < items.length; i++) {
+  var button = document.createElement("div");
 
+  button.className = "button";
+  button.innerHTML = `${items[i]}`;
+
+  buttons.appendChild(button);
+}
 
 const equals = document.createElement("div");
 
